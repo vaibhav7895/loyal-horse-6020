@@ -5,7 +5,7 @@ import '../../Styles/BodySlideShow.css';
 import 'react-slideshow-image/dist/styles.css'
 
 
-const images = ["./photos/dow1.png", "./images/nord3.png", "./images/nord4.png"]
+const images = ["./photos/dow-003.png", "./photos/dow-01.png", "./photos/dow-02.png"]
 const images1 = ["./images/nord8.png", "./images/nord9.png"]
 const images2 = ["./images/nord10.png", "./images/nord11.png"]
 const images3 = ["./images/nord12.png", "./images/nord13.png"]
@@ -73,17 +73,17 @@ const Body1 = () => {
 
       <Grid width="1450px" margin="auto" textAlign="start" templateColumns='repeat(3, 1fr)' gap={6}>
         <GridItem w='100%' h='10'  >
-          <Image src='./images/nord5.png' />
+          <Image src='./photos/dow13.png' />
           <Text fontSize="18px" pt="15px" fontWeight="bold">Closer to... Paige Adams-Geller</Text>
           <Text fontSize="15px" pt="5px" cursor="pointer" ><u>Read More</u></Text>
         </GridItem>
         <GridItem w='100%' h='10'  >
-          <Image src='./images/nord6.png' />
+          <Image src='./photos/dow14.png' />
           <Text fontSize="18px" pt="15px" fontWeight="bold">Our Hispanic & Latinx Employees on Food, Family & Culture</Text>
           <Text fontSize="15px" pt="5px" cursor="pointer" ><u>Read More</u></Text>
         </GridItem>
         <GridItem w='100%' h='10'  >
-          <Image src='./images/nord7.png' />
+          <Image src='./photos/dow15.png' />
           <Text fontSize="18px" pt="15px" fontWeight="bold">Lynn Yaeger's Fine Jewelry Edit</Text>
           <Text fontSize="15px" pt="5px" cursor="pointer" ><u>Read More</u></Text>
         </GridItem>
